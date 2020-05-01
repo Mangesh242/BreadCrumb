@@ -10,11 +10,11 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   {
     path: 'home', component: HomeComponent,
-    data: { breadcrumb: "Home" }
+    data: { breadcrumb: "" }
   },
   {
     path: 'dashboard',
-    data: { breadcrumb: "Countries" },
+    data: { breadcrumb: "Dashboard" },
     children: [
       { path: '', component: CountriesComponent },
       {

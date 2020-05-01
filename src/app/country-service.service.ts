@@ -58,7 +58,9 @@ export class CountryServiceService {
         
           for(var j of i["states"])
           {
+            if(j["state"]==state){
               return j["cities"]
+            }
           }
       }
     
