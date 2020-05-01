@@ -1,0 +1,7 @@
+
+<mat-card>
+<p>states works!</p>
+<ul *ngFor="let state of states">
+    <li><a routerLink="/dashboard/{{country}}/{{state.state}}">{{state.state}}</a></li>
+</ul>
+</mat-card>

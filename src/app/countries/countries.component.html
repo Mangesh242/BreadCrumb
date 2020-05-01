@@ -1,0 +1,8 @@
+<mat-card>
+<p>Country Works</p>
+
+<ul *ngFor="let country of countries">
+    <li><a routerLink="/dashboard/{{country.Country}}">{{country.Country}}</a></li>
+</ul>
+
+</mat-card>
